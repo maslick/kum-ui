@@ -13,7 +13,6 @@
         'jsonFormatter': '../vendor/json-formatter/dist/json-formatter',
         'rainbow': '../vendor/rainbow.js/topbar',
         'uiRouter': '../vendor/angular-ui-router/release/angular-ui-router',
-        'lodash': '../vendor/lodash/lodash',
         'dropdown': '../vendor/bootstrap/js/dropdown',
         'classie': '../vendor/classie/classie',
         'modernizr': '../vendor/modernizr/modernizr',

@@ -13,9 +13,7 @@ define([
     'use strict';
 
     return ng.module('app', [
-        'app.services',
         'app.controllers',
-        'app.filters',
         'app.directives',
         'ui.router'
     ]);

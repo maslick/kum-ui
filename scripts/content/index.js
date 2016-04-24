@@ -5,7 +5,5 @@
  * which avails each controller of, for example, the `config` constants object.
  **/
 define([
-    './view0/view0',
-    './view1/view1',
-    './view2/view2'
+    './view1/view1'
 ], function () {});

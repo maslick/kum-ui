@@ -6,6 +6,5 @@
 define([
     './header/page-header',
     './body/page-body',
-    './footer/page-footer',
-    './scroll/scroll'
+    './footer/page-footer'
 ], function () {});

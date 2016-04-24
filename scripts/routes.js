@@ -8,20 +8,10 @@ define(['./app'], function(app) {
     return app.config(function($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
 
         $stateProvider
-            .state('index',{
-                url: '/asd',
-                templateUrl: 'scripts/content/view0/view0.html',
-                controller: 'MyCtrl0'
-            })
             .state('view1',{
                 url: '/',
                 templateUrl: 'scripts/content/view1/view1.html',
                 controller:'MyCtrl1'
-            })
-            .state('view2',{
-                url: '/view2',
-                templateUrl: 'scripts/content/view2/view2.html',
-                controller: 'MyCtrl2'
             });
 
         $urlRouterProvider.otherwise('/');
